@@ -1,24 +1,26 @@
 {
   "name": "@apiverve/airlinelookup",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Airline Lookup is a simple tool for getting information on airlines. It returns information on various airlines.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "example": "node examples/basic.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apiverve/airlinelookup-API.git"
   },
   "keywords": [
-    "airline lookup","airline lookup api","airline lookup tool","airline lookup software","airline lookup service"
+    "airline lookup", "airline lookup api", "airline lookup tool", "airline lookup software", "airline lookup service"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apiverve/airlinelookup-API/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/api/airlinelookup?utm_source=npm",
+  "homepage": "https://apiverve.com/marketplace/airlinelookup?utm_source=npm",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
@@ -27,6 +29,6 @@
   "dependencies": {
     "node-fetch": "^3.3.2",
     "promise": "^8.3.0",
-    "axios": "1.7.9"
+    "axios": "1.8.4"
   }
 }
